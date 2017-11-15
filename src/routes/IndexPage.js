@@ -19,7 +19,7 @@ function IndexPage() {
   );
 };
 
-store.subscribe(connect()(IndexPage));
+store.subscribe(IndexPage);
 
 IndexPage.propTypes = {
 };
